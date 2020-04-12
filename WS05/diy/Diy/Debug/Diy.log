@@ -1,0 +1,6 @@
+﻿  Engine.cpp
+  Ship.cpp
+E:\courses\OOP244\Workshop\WS05\diy\Diy\Ship.cpp(61,35): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  shipmain.cpp
+  Generating Code...
+  Diy.vcxproj -> E:\courses\OOP244\Workshop\WS05\diy\Diy\Debug\Diy.exe

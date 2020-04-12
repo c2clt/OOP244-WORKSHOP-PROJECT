@@ -1,0 +1,6 @@
+﻿  Engine.cpp
+  Ship.cpp
+E:\courses\OOP244\Workshop\WS05\lab\Lab\Ship.cpp(55,35): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  shipmain.cpp
+  Generating Code...
+  Lab.vcxproj -> E:\courses\OOP244\Workshop\WS05\lab\Lab\Debug\Lab.exe

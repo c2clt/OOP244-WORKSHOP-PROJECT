@@ -1,0 +1,11 @@
+Name: Jingmin Zhou (Jessica)
+Student ID: 119766194
+Email: jzhou175@myseneca.ca
+
+In the Workshop 4 (Constructors), I have learned how to code a class (Saiyan) for a simple object, with private data members and public member functions, define non-argument constructor that sets a Saiyan object to a safe empty state, and overload a 3-argument constructor to receive information from a client.
+
+Firstly, I reuse the code when implementing the member functions and avoid the repetition and redundancy of code, which make the source code clean and more readable. For example, function setEmpty() has been called in no-argument constructor and function set(), and set() has been called in 3-argument constructor.
+
+Secondly, I have learned how to place a default parameter in function. If that parameter is not provided, the default value will be passed into the function. In setter function set(const char* name, int dob, int power, int level = 0, bool super = false), m_level is set to 0 and m_super is set to false, if the fourth and fifth arguments are not provided by client.
+
+Finally, dynamic memory allocation is used when appropriate to allocate enough memory to set the name in setter function. In destructor, the dynamic memory is deallocated to make sure no memory leak caused in setter function.

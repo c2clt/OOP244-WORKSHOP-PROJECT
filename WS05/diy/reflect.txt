@@ -1,0 +1,12 @@
+Name: Jingmin Zhou (Jessica)
+Student ID: 119766194
+Email: jzhou175@myseneca.ca
+
+In the Workshop 6 (Class with a Resource), I have learned how to implement a copy constructor and copy assignment operator, and use existing objects to create new ones or assign values to existing object based on other existing ones. I know how to manage a class with dynamic resources and also implement custom input/output operators.
+
+Firstly, through copy constructor a constant Basket reference is taken as a source object from which we will create a new Basket. All the parameters of the source Basket are copied and used to create a new Basket with the same values. For the copying of m_qty and m_price data members can be done via shallow copying, while m_fruitName needs to apply deep copying.
+
+Secondly, reusing the code is very important for designing a class, keeping redundancy to a minimum and making the source code more clear and readable. The logics are coded in details in three setters (setName(), setQty() and setPrice()), including validating all the values before setting the values to the data members. Therefore, it is only needed to call these three functions with response arguments in other functions (constructors, setEmpty() and copy constructor and assignment operator) as necessary, which avoids lots of code duplication.
+
+Finally, data member m_fruitName is a character pointer, so dynamic allocation of memory is needed when setting the name. And deallocation of memory is required at the end of the program to avoid memory leakage, like in destructor.
+

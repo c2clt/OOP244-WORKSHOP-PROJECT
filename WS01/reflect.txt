@@ -1,0 +1,13 @@
+Name: Jingmin Zhou (Jessica)
+Student ID: 119766194
+Email: jzhou175@myseneca.ca
+
+In the Workshop 1 (Compiling Modules), the concept of modular design is emphasized, which is highly cohesive within one module but loosely coupled with other modules. 
+
+I have learn how to organize source code into modules, using header and implementation files, how to compile and link modular programs, and how to distinguish the contents of header (defining the class and declaring the function prototypes) and an implementation (defining the functions and containing all of the logic) file.
+
+As requirements of this workshop, Word module holds the functions related to Word processing and analysis, while Tools module holds the general helper functions independent on any Word data and can be applied to other programs as needed. 
+
+In addition, I learn how to add the compilation safeguards against multiple inclusions of header files and also have all the code in Word and Tools Modules in namespace called “sdds”.
+
+Finally, I learn two new ways, using TortoiseGit and command line, for retrieving the original program. Also I know how to feed a .txt file to the program through standard input in Visual Studio and matrix account.

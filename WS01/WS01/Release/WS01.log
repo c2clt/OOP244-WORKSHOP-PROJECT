@@ -1,0 +1,9 @@
+﻿  Tools.cpp
+  Word.cpp
+  WordStat.cpp
+E:\courses\OOP244\WS01\WS01\WS01\WordStat.cpp(7,6): warning C4101: 'n': unreferenced local variable
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 53 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  WS01.vcxproj -> E:\courses\OOP244\WS01\WS01\Release\WS01.exe

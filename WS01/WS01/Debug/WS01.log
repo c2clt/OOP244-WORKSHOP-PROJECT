@@ -1,0 +1,6 @@
+﻿  Tools.cpp
+  Word.cpp
+  WordStat.cpp
+E:\courses\OOP244\WS01\WS01\WS01\WordStat.cpp(7,6): warning C4101: 'n': unreferenced local variable
+  Generating Code...
+  WS01.vcxproj -> E:\courses\OOP244\WS01\WS01\Debug\WS01.exe

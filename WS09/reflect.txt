@@ -1,0 +1,11 @@
+Name: Jingmin Zhou (Jessica)
+Student ID: 119766194
+Email: jzhou175@myseneca.ca
+
+In the Workshop 9 (Templates), I have learned how to code a templated class that will allow for its member data and functions to operate on types supplied through a parameter list. This class can be a container similar to an array.
+
+Firstly, a templated class NumbersBox was created using the class template syntax “template <class T>”, which is similar to that for function templates. Then a generic type (T) will be the representative type of Numbers held in the NumbersBox.
+
+Secondly, the concept of dynamic memory allocation and deallocation was reviewed because of data member “items”, which is a dynamically allocated array used to store numbers in the NumberBox. Dependent on the amount of numbers “size”, “items” will be resized through dynamic memory deallocation and reallocation, which was demonstrated in details in member function “NumbersBox<T>& operator+=(T num)”.
+
+Finally, we need to pay more attention on the display format, like “1, 2, 3” given a box with the values (1, 2, 3). The last number was followed by newline instead of a comma, so it is needed to code a separate statement outside of the loop for displaying the last number.
