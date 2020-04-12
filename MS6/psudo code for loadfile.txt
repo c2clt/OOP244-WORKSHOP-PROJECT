@@ -1,0 +1,33 @@
+ bool Parking::load() {
+      bool allOk = true;
+      ifstream is;
+      if (!isEmpty()) is.open(m_datafile);
+      char Vtype;
+      Vehicle* V;
+      m_Vcnt = 0;
+      while (m_Vcnt < m_lotSize && allOk && is) {
+         Vtype = 'X';
+         V = nullptr;
+         is >> Vtype;
+         is.ignore();
+         if (Vtype == 'M') {
+            V = new Motorcycle;
+         }
+         else if(Vtype == 'C'){
+            V = new Car;
+         }
+         if (V) {
+            V->setCsv(true);
+            is >> *V;
+            if (is) {
+               m_parkingSpots[V->getParkingSpot() - 1] = V;
+               m_Vcnt++;
+            }
+            else {
+               delete V;
+               allOk = false;
+            }
+         }
+      }
+      return allOk;
+   }

@@ -1,0 +1,8 @@
+﻿  Menu.cpp
+  Utils.cpp
+  ms1_MenuTester.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 68 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  MS1.vcxproj -> E:\courses\OOP244\Final Project\MS1\Release\MS1.exe

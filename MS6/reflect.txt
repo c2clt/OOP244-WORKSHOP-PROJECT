@@ -1,0 +1,11 @@
+Name: Jingmin Zhou (Jessica)
+Student ID: 119766194
+Email: jzhou175@myseneca.ca
+
+In the final project, I have built a parking application, which can load the vehicle information from a file, update the parking information and save the updated information in file. The core of object oriented programming (Encapsulation, Inheritance and Polymorphism) is referred and enhanced in this project. 
+
+Firstly, I learned how to read a file data through files stream class (e.g. ifstream) and store the data into the Parking object through overloaded operator. The logic and implement of member function loadFile() in Parking was complicated, which provided its state (true or false) based on the given datafile and the data information.
+
+Secondly, it is a good practice to code the destructor in a base class as virtual, even if no class is currently derived from that base class, which ensures that the most derived destructor will be called and there is no need to upgrade to the definition of the base class when a class is derived from the base class.
+
+Finally, the input and output operators overloading is very important for this project, which is kind of inclusion polymorphism eliminates duplicate logic across the whole hierarchy system.
